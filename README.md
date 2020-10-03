@@ -50,4 +50,7 @@ Note this is a complicated process and I will be making a video tutorial soon th
   If the .bat is in the same folder as the .ahk then it will be the same path
   
 2) 
+  Right click where you want the shortcut. This will probably be your desktop or a folder holding all of your games. 
+  Select new -> shortcut
   
+3) 
