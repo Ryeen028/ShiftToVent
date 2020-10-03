@@ -11,10 +11,11 @@ Note this is a complicated process and I will be making a video tutorial soon th
   Next find your screen resolution.
   This can be found in settings by searching "display", click "display settings", then scroll until you find the resolution
   You will then need to make some calculations with those:
-    First, take the width(larger value) and divide by 1.075. This will be your a variable. a = width/1.075
-    Second, take the height (smaller value) and divide by 1.16. This will be your b variable. b = height/1.16
-    
+    First, take the width(larger value) and divide by 1.075. This will be your a variable.
+    Second, take the height (smaller value) and divide by 1.16. This will be your b variable.
     Third, take your width and height and divide by 2. They will be c and d respectively
+    
+    a = width/1.075, b = height/1.16, c = width/2, d = height/2
 
 3) 
   Now right click the ahk file and select "edit script"
@@ -30,4 +31,12 @@ Note this is a complicated process and I will be making a video tutorial soon th
   You may choose another location but will have to adapt some of the directions.
 
 2) 
+  Now go into the location of your ahk file. 
+  Right click the path bar - if your in documents it should say "This PC > Documents"
+  Select "copy address"
+
+3)
+  Right click the ShiftToVentStart.bat
+  Select "edit"
+  
   
