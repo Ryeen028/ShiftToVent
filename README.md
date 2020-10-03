@@ -1,21 +1,25 @@
 # ShiftToVent
 Press shift to vent or sabotage in among us
+NOTE: I do not know how to make this work with a verticle monitor
 
 # How to Install
 Note this is a complicated process and I will be making a video tutorial soon that will be linked at the end of this README.
+1) Download autohotkey from this site and follow the installation instructions
+  https://www.autohotkey.com/
 
-1) Download the repository. Make sure all the files are in an accessible location for now.
+2) Download the repository. Make sure all the files are in an accessible location for now and extract all files from the zip.
   
-2) Next find your screen resolution.
+3) Next find your screen resolution.
   This can be found in settings by searching "display", click "display settings", then scroll until you find the resolution
-  You will then need to make some calculations with those:
+  Now you need to do some calculations with those numbers
+  
     First, take the width(larger value) and divide by 1.075. This will be your a variable.
     Second, take the height (smaller value) and divide by 1.16. This will be your b variable.
     Third, take your width and height and divide by 2. They will be c and d respectively
     
     a = width/1.075, b = height/1.16, c = width/2, d = height/2
 
-3) Now right click the ahk file and select "edit script"
+4) Now right click the ahk file and select "edit script"
   Next replace each of the variables in "ShiftToVent.ahk" with the numbers you just calculated. Be sure to leave the commas.
   That is everything for the ahk. Just start this script with among us to vent, and sabatoge with shift!
 
@@ -38,10 +42,25 @@ Note this is a complicated process and I will be making a video tutorial soon th
   However we can go one further and make this look the same as the original Among Us shortcut when it is downloaded from steam
   
 # Make A Shortcut
-1) Once again you will need to copy a path. This time the path for the ShiftToVentStart.bat
-  If the .bat is in the same folder as the .ahk then it will be the same path
+1) Right click the ShiftToVentStart.bat file and select create shortcut
+  Rename this shortcut to whatever you want - I suggest "Among Us" to make it the same as the original steam shortcut
+
+2) Now drag that shortcut to your desktop or wherever you keep your games
+
+3) You probably want to fix the icon now. Cause who wants to look at the default .bat icon?
+  To do this right click the shortcut, select properties, change icon.
+  It will give you an error, just click ok
+  Then click browse.
+  Now find your documents folder under This PC and navigate to the folder containing the files you just downloaded from me.
+  Select "AmongUs.ico" and hit open
+
+4) Back in the shortcut interface,
+  click ok then apply and ok again
   
-2) Right click where you want the shortcut. This will probably be your desktop or a folder holding all of your games. 
-  Select new -> shortcut
-  
-3) 
+And you're done!
+
+# NOTES
+1) When you stop playing among us hit your end key
+2) If you would like to change your hotkeys for stopping the script or venting a simple google search will give you the names of each key for ahk triggers (they are usually just   the character the key makes but if you are using chat you should avoid using letters.
+3) I am not responsible for any bans that may occur in the future. The team working on among us has plans to enforce anti-hacking. I do not know if this will classify as            cheating but it is considered to be a macro so be careful.
+4) PLEASE let me know if you have any requests or suggestions. I am very open to making changes and if you know a better way to do this I would love to hear it.
