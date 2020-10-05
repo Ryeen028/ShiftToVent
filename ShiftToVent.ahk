@@ -8,7 +8,7 @@ end::exit()
 
 vent() {
 	BlockInput ON
-	SendInput q
+	SendInput {space}
 	BlockInput OFF
 	return
 
