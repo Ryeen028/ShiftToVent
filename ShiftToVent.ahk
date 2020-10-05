@@ -7,16 +7,12 @@ shift::vent()
 end::exit()
 
 vent() {
-	Click a, b
-	sleep 30
-	center()
+	BlockInput ON
+	SendInput q
+	BlockInput OFF
 	return
-}
 
-center() {
-	Click c, d
-	return
-}
+
 
 exit() {
 	ExitApp
