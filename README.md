@@ -3,7 +3,7 @@ Press shift to vent or sabotage in among us
 NOTE: I do not know how to make this work with a verticle monitor
 
 # How to Install
-Note this is a complicated process and I will be making a video tutorial soon that will be linked at the end of this README.
+If you installed this when the script used screen coordinates please reinstall the ahk and just replace the old ahk. Make sure the name is the same. If you change the file name you must also change the .bat file.
 1) Download autohotkey from this site and follow the installation instructions
   https://www.autohotkey.com/
 
