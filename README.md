@@ -9,19 +9,7 @@ Note this is a complicated process and I will be making a video tutorial soon th
 
 2) Download the repository. Make sure all the files are in an accessible location for now and extract all files from the zip.
   
-3) Next find your screen resolution.
-  This can be found in settings by searching "display", click "display settings", then scroll until you find the resolution
-  Now you need to do some calculations with those numbers
-  
-    First, take the width(larger value) and divide by 1.075. This will be your a variable.
-    Second, take the height (smaller value) and divide by 1.16. This will be your b variable.
-    Third, take your width and height and divide by 2. They will be c and d respectively
-    
-    a = width/1.075, b = height/1.16, c = width/2, d = height/2
-
-4) Now right click the ahk file and select "edit script"
-  Next replace each of the variables in "ShiftToVent.ahk" with the numbers you just calculated. Be sure to leave the commas.
-  That is everything for the ahk. Just start this script with among us to vent, and sabatoge with shift!
+3) The next steps are not necessary but are highly recommended. If you do not want to go through them, just double click the ahk when you open among us.
 
 # Automatically start the script when among us starts
 
